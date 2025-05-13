@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
   styleUrl: './if-render.component.scss'
 })
 export class IfRenderComponent {
-    canShow: boolean = true
-    name = 'Lucas'
+    canShow: boolean = true;
+    name = 'Lucas';
 
 }
