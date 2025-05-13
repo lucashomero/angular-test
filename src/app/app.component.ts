@@ -5,11 +5,13 @@ import { ParentDataComponent } from './componentes/parent-data/parent-data.compo
 import { DirectivesComponent } from "./componentes/directives/directives.component";
 import { IfRenderComponent } from './componentes/if-render/if-render.component';
 import { EventosComponent } from './componentes/eventos/eventos.component';
+import { EmitterComponent } from './componentes/emitter/emitter.component';
+
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, FirstComponentComponent, ParentDataComponent, DirectivesComponent, IfRenderComponent, EventosComponent],
+  imports: [RouterOutlet, FirstComponentComponent, ParentDataComponent, DirectivesComponent, IfRenderComponent, EventosComponent, EmitterComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
