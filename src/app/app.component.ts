@@ -7,12 +7,13 @@ import { IfRenderComponent } from './componentes/if-render/if-render.component';
 import { EventosComponent } from './componentes/eventos/eventos.component';
 import { EmitterComponent } from './componentes/emitter/emitter.component';
 import { ListRenderComponent } from './componentes/list-render/list-render.component';
+import { PipesComponent } from './componentes/pipes/pipes.component';
 
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, FirstComponentComponent, ParentDataComponent, DirectivesComponent, IfRenderComponent, EventosComponent, EmitterComponent, ListRenderComponent],
+  imports: [RouterOutlet, FirstComponentComponent, ParentDataComponent, DirectivesComponent, IfRenderComponent, EventosComponent, EmitterComponent, ListRenderComponent, PipesComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
