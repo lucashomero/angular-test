@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
+import { RouterOutlet, RouterLink } from '@angular/router';
 
 
-import { RouterOutlet } from '@angular/router';
 import { FirstComponentComponent } from './componentes/first-component/first-component.component';
 import { ParentDataComponent } from './componentes/parent-data/parent-data.component';
 import { DirectivesComponent } from "./componentes/directives/directives.component";
@@ -16,7 +16,7 @@ import { TwoWayBindingComponent } from './componentes/two-way-binding/two-way-bi
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, FirstComponentComponent, ParentDataComponent, DirectivesComponent, IfRenderComponent, EventosComponent, EmitterComponent, ListRenderComponent, PipesComponent, TwoWayBindingComponent],
+  imports: [RouterOutlet, RouterLink ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
