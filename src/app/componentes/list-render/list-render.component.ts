@@ -2,12 +2,13 @@ import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { Animal } from '../../Animal';
 import { ListService } from '../../services/list.service';
+import { RouterModule } from '@angular/router';
 
 
 @Component({
   selector: 'app-list-render',
   standalone: true,
-  imports: [CommonModule, ],
+  imports: [CommonModule, RouterModule],
   templateUrl: './list-render.component.html',
   styleUrl: './list-render.component.scss'
 })
